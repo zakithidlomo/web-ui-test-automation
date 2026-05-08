@@ -1,0 +1,81 @@
+Zakithi Dlomo Case Study
+
+1. Usability Testing Design
+
+My usability testing approach would focus on ensuring the “Car Search” feature is intuitive, easy to use, responsive, and user-friendly.
+
+Areas of focus:
+Search accuracy
+Ease of navigation
+Input validation
+Filter usability (make, model, year)
+Search speed
+Mobile responsiveness
+Error handling and user feedback
+Accessibility and readability
+
+Test cases:
+Search using valid make, model, and year
+Search using partial text
+Search with invalid values
+Empty search validation
+Verify search results accuracy
+Verify no-result scenarios
+Verify filters work correctly together
+Verify usability on mobile and desktop
+Verify response messages and loading indicators
+
+I would use:
+Exploratory testing
+Boundary value analysis
+Equivalence partitioning
+Cross-browser testing
+Accessibility testing tools
+
+2. Performance Testing Strategy
+
+My performance testing strategy would focus on response time, scalability, stability, and reliability of the search feature under different load conditions.
+
+Approach:
+Simulate multiple users searching simultaneously
+Measure API and UI response times
+Monitor CPU, memory, and network usage
+Identify bottlenecks during peak traffic
+
+Performance scenarios:
+Normal load testing
+Stress testing
+Spike testing
+Endurance testing
+
+Tools:
+JMeter
+LoadRunner
+Grafana
+Selenium for UI performance validation
+
+Success criteria:
+Search results should load within acceptable response time
+No crashes or failures under heavy load
+Stable performance with concurrent users
+Accurate results returned consistently
+
+3. Client Collaboration
+
+I would involve stakeholders throughout the testing lifecycle by conducting requirement review sessions, demos, and feedback meetings.
+
+Collaboration activities:
+Clarify business requirements
+Review usability expectations
+Share test plans and test results
+Discuss defects and improvements
+Gather user feedback
+Prioritize issues based on business impact
+
+Reporting:
+Daily status updates
+Test execution reports
+Defect reports with screenshots/logs
+Performance metrics and recommendations
+
+After feedback is received, I would update test cases, retest fixes, and ensure the final solution aligns with business and user expectations.
