@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+out/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Playwright binaries and browsers
+.playwright/
+**/playwright.ps1
+
+# Test results and reports
+TestResults/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Logs
+*.log
